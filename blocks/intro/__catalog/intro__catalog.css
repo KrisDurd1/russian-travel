@@ -1,0 +1,16 @@
+.intro__catalog {
+    color: #FFFFFF;
+    list-style-type: none;
+    /* font-size: 12px;
+    line-height: 18px;
+    font-weight: 700; */
+    padding-top: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__catalog {
+        padding-top: 34px;
+    }
+}

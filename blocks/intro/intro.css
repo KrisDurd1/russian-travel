@@ -1,0 +1,10 @@
+.intro {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        padding: 0 148px;
+    }
+}

@@ -1,0 +1,15 @@
+.header__lang-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 7px;
+    align-items: flex-end;
+    column-gap: 18px;
+    opacity: 1;
+    transition: opacity .25s ease-out;
+}
+
+.header__lang-links:hover {
+    opacity: .8;
+    cursor: pointer;
+}
