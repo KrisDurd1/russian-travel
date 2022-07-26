@@ -6,17 +6,17 @@
     width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .footer {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 48px;
-        padding-top: 64px;
+      padding: 88px 24px 0 24px;
     }
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     .footer {
-        padding-top: 88px;
+      flex-direction: column;
+      padding-left: 67px;
+      padding-right: 67px;
+      padding-top: 64px;
     }
-}
+  }

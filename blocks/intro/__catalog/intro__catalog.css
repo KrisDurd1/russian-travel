@@ -1,16 +1,16 @@
 .intro__catalog {
+    max-width: 690px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     color: #FFFFFF;
     list-style-type: none;
-    /* font-size: 12px;
+    font-size: 12px;
     line-height: 18px;
-    font-weight: 700; */
-    padding-top: 32px;
-    padding: 0;
+    font-weight: 700; 
+    font-style: 400;
+    padding: 32px 0 0 0;
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .intro__catalog {
-        padding-top: 34px;
-    }
-}
+

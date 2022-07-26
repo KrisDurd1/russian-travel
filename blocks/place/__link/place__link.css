@@ -5,6 +5,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     font-style: normal;
+    padding-top: 12px;
     opacity: 1;
     transition: opacity .25s ease-out;
 }
