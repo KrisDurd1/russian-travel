@@ -22,5 +22,9 @@
       padding: 92px 0 0 48px;
     }
   }
-  
+  @media screen and (min-width: 1280px) {
+    .intro {
+      padding: 92px 0 0 148px;
+    }
+  }
   
