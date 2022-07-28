@@ -6,9 +6,16 @@
     z-index: 11;
     color: #FFFFFF;
     margin: 0;
+    max-width: 360px;
 }
-
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        line-height: 22px;
+        font-size: 18px;
+        padding: 32px 0 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
     .cover__subtitle {
         line-height: 16px;
         font-size: 14px;
@@ -16,10 +23,3 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .cover__subtitle {
-        line-height: 22px;
-        font-size: 18px;
-        padding: 32px 0 0 0;
-    }
-}
